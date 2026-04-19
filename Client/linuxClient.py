@@ -6,7 +6,7 @@ from linuxLog import key_check
 
 
 s = socket.socket()         # Create a socket object
-host = '192.168.1.110'      # esp32 ip
+host = '192.168.31.31'      # esp32 ip
 port = 12345                # Reserve a port for your service.
 s.connect((host, port))
 #a = 'b'
